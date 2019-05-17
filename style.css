@@ -1,0 +1,180 @@
+body {
+	background: url("bg.jpg") fixed center;
+
+}
+
+#top {
+	//background: url("bg.jpg") center;	
+	height: 500px;
+}
+
+#left_menu {
+	position: absolute;
+	top: 50px;
+	left: 100px;
+	color: #FFFFFF;
+	font-size: 24px;
+	font-family: calibri, sans-serif;
+	
+}
+
+#left_menu a:link{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#left_menu a:visited{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#left_menu a:hover{
+	color: #FF6666;
+	text-decoration: underline;
+}
+
+#left_menu a:active{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#right_menu {
+	position: absolute;
+	top: 50px;
+	right: 100px;
+}
+
+.homehome {
+	float: left;
+	font-family: Calibri;
+	font-size: 24px;
+	margin-left: 10px;
+}
+
+.homehome a:link{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.homehome a:visited{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.homehome a:hover{
+	color: #FF6666;
+	text-decoration: underline;
+}
+
+.homehome a:active{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#banner {
+	color: #FFFFFF;	
+	font-size: 60px;
+	position: absolute;
+	top: 250px;
+	left: 500px;
+	//height: 500px;
+}
+
+#middle {
+	background: #FFFFFF;	
+	height: 500px;
+}
+
+#left_con {
+	position: relative;
+	top: 120px;
+	left: 250px;
+	border: 1px solid #CCCCCC;
+	width: 400px;
+	height: 290px;
+	font-family: calibri;
+	float: left;
+}
+
+#left_pho{
+	position: relative;
+	top: 20px;
+	left: 20px;
+	background: url("pic03.jpg");
+	width: 168px;
+	height: 168px;
+}
+
+#left_pho:hover {
+	background: url("pic04.jpg");
+}
+
+#left_text{
+	position: absolute;
+	top: 20px;
+	left: 220px;	
+	width: 168px;
+	height: 168px;
+}
+
+#left_bot{
+	position: absolute;
+	top: 220px;
+	left: 60px;
+	width: 80px;
+	height: 30px;
+	background: #FF6666;
+	font-size: 24px;
+	padding-left: 5px;
+	color: #FFFFFF;
+}
+
+#right_con {
+	position: relative;
+	top: 120px;
+	left: 550px;
+	border: 1px solid #CCCCCC;
+	width: 400px;
+	height: 290px;
+	font-family: calibri;
+	float: left;
+}
+
+#right_pho{
+	position: relative;
+	top: 20px;
+	left: 20px;
+	background: url("pic05.jpg");
+	width: 168px;
+	height: 168px;
+}
+
+#right_pho:hover {
+	background: url("pic06.jpg");
+}
+
+#right_text{
+	position: absolute;
+	top: 20px;
+	left: 220px;	
+	width: 168px;
+	height: 168px;
+}
+
+#right_bot{
+	position: absolute;
+	top: 220px;
+	left: 60px;
+	width: 80px;
+	height: 30px;
+	background: #FF6666;
+	font-size: 24px;
+	padding-left: 5px;
+	color: #FFFFFF;
+}
+
+#bottom {
+	background: #FF6666;	
+	height: 100px;
+	margin: auto;
+}
